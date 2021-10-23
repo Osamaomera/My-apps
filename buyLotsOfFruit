@@ -5,8 +5,8 @@ def buyLotsOfFruit(orderlist):
     for order in orderlist:
         value=orderlist[order]
         cost += fruit[order]*value
+    print("cost of ", fruit ," is ",cost)
     return cost
 
 orderlist = {'apples':1.5,'orange':4.0,'limes':0.0}
 buyLotsOfFruit(orderlist);
-print("cost of ", fruit ," is ", buyLotsOfFruit(orderlist))
