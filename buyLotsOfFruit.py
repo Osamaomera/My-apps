@@ -9,4 +9,4 @@ def buyLotsOfFruit(orderlist):
     return cost
 
 orderlist = {'apples':1.5,'orange':1.75,'limes':1.0}
-buyLotsOfFruit(orderlist);
+buyLotsOfFruit(orderlist)
